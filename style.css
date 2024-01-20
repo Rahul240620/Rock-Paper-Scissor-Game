@@ -71,3 +71,41 @@ img {
     border-radius: 1rem;
 
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+    .choice {
+        height: 150px;
+        width: 150px;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .choices {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .score-board {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 3rem;
+    }
+
+    #msg {
+        font-size: 1.5rem;
+        margin-top: 3rem;
+    }
+}
