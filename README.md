@@ -1,2 +1,2 @@
-# Stone-Paper-Scissor-Game
+# Rock-Paper-Scissor-Game
 Its a game build using HTML, CSS, JS.
